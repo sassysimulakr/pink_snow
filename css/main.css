@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #050517;
+}
+
+.bigtext {
+  font-family: 'Ruslan Display', cursive;
+  color: white;
+}
+
+[data-words] {
+  vertical-align: top;
+  position: static;
+}
+
+[data-words]>span {
+  position: absolute;
+  color: rgb(254, 208, 87);
+}
