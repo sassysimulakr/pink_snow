@@ -6,15 +6,12 @@ function dataWord() {
       tot = $words.length,
       c = 0;
 
-    // CREATE SPANS INSIDE SPAN
     for (var i = 0; i < tot; i++) $self.append($('<span/>', {
       text: $words[i]
     }));
 
-    // COLLECT WORDS AND HIDE
     $words = $self.find("span").hide();
 
-    // ANIMATE AND LOOP
     (function loop() {
       $self.animate({
         width: $words.eq(c).width()
@@ -27,5 +24,4 @@ function dataWord() {
 
 }
 
-// dataWord(); // If you don't use external fonts use this on DOM ready; otherwise use:
 $(window).on("load", dataWord);
