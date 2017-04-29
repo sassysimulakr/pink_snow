@@ -67,7 +67,7 @@
   bottom: 0;
 }
 
-h1 {
+.bigtext {
   position: fixed;
   right: 0;
   margin: 0;
@@ -76,8 +76,8 @@ h1 {
 ul {
   padding: 0;
   list-style: none;
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 5%;
   position: absolute;
   top: 10px;
 }
@@ -88,7 +88,7 @@ ul li {
   padding: 20px 0;
 }
 
-h1 {
+.bigtext {
   position: absolute;
   left: 30%;
   color: #fff;

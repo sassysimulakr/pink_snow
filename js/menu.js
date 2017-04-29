@@ -77,7 +77,7 @@ $(window).on('load', function() {
 
     mark.css('transform', 'translate(' + curveX + 'px, ' + curveY + 'px)');
 
-    $('h1').css('transform', 'translateY(' + curveY + 'px)');
+    $('.bigtext').css('transform', 'translateY(' + curveY + 'px)');
     window.requestAnimationFrame(svgCurve);
   }
 

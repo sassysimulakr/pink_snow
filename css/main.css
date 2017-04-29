@@ -20,3 +20,11 @@ body, html {
   position: absolute;
   color: rgb(254, 208, 87);
 }
+
+span {
+  color: rgb(254, 208, 87);
+}
+
+.hid {
+  display: none;
+}
